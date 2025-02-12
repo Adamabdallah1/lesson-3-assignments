@@ -11,3 +11,12 @@
 #Ask the user to enter their age.
 age = int(input("Enter your age: "))
 
+#Determine the price of the movie
+if age < 10:
+    print(f"The ticket price of age {age} is $5.")
+elif age < 16:
+    print("The ticket price of age {age} is $7.")
+elif age < 18:
+    print("The ticket price of age {age} is $9.")
+else:
+    print("The ticket price of age {age} is $12.")
