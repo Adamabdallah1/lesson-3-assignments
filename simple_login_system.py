@@ -14,4 +14,9 @@
 #Enter password: pass 
 #Access denied
 
+#Solution:
+
+#Adding the username and password to variables
+adminuser = "admin"
+adminpass = 1234
 
