@@ -6,3 +6,8 @@
 #Example:
 #Enter your age: 8
 #The ticket price is $5.
+
+#Solution:
+#Ask the user to enter their age.
+age = int(input("Enter your age: "))
+
