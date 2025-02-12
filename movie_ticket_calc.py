@@ -15,13 +15,13 @@ while code:
     def movie_ticker_price(age):
         #Determine the price of the movie
         if age <= 10:
-            print(f"The ticket price of age {age} is $5.")
+            return "The ticket price of age" + str(age) + "is $5."
         elif age <= 16:
-            print("The ticket price of age {age} is $7.")
+            return "The ticket price of age" + str(age) + "is $7."
         elif age <= 18:
-            print("The ticket price of age {age} is $9.")
+            return "The ticket price of age" + str(age) + "is $9."
         else:
-            print("The ticket price of age {age} is $12.")
+            return "The ticket price of age" + str(age) + "is $12."
 
     age = int(input("Enter your age: "))
 
