@@ -20,3 +20,19 @@
 adminuser = "admin"
 adminpass = 1234
 
+#Ask the user to enter their username and password
+def login_system(adminuser, adminpass):
+    username = input("Enter username: ")
+    if username == adminuser:
+        password = int(input("Enter password: "))
+        if password == adminpass:
+            access_granted()
+        else:
+            access_denied()
+    else:
+        access_denied()
+    
+  
+
+results = login_system(adminuser, adminpass)
+print(results)
