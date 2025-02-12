@@ -10,10 +10,16 @@
 #Solution:
 
 #Ask the user to enter a number.
-user = int(input("Enter a number: "))
 
-#Check if the number is even or odd.
-if user % 2 == 0:
-    print("The number is even.")
-else:
-    print("The number is odd.")
+def even_odd_checker(number):
+    if number % 2 == 0:
+        return "The number is even"
+    else:
+         return "The number is odd" 
+    
+
+
+number = int(input("Enter a number: "))
+results = even_odd_checker(number)
+
+print(results)
