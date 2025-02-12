@@ -11,15 +11,14 @@
 
 #Ask the user to enter a number.
 
-def even_odd_checker(number):
-    if number % 2 == 0:
-        return "The number is even"
-    else:
-         return "The number is odd" 
+while True:
+    def even_odd_checker(number):
+        if number % 2 == 0:
+            return "The number is even"
+        else:
+            return "The number is odd" 
     
+    number = int(input("Enter a number: "))
+    results = even_odd_checker(number)
 
-
-number = int(input("Enter a number: "))
-results = even_odd_checker(number)
-
-print(results)
+    print(results)
