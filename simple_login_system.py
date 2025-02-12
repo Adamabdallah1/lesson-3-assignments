@@ -33,10 +33,10 @@ def login_system(adminuser, adminpass):
         access_denied()
     
 def access_granted():
-    print("Access granted")
+    return "access granted"
 
 def access_denied():
-    print("Access denied")    
+    return "access denied"   
 
 results = login_system(adminuser, adminpass)
 print(results)
