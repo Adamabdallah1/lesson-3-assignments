@@ -9,8 +9,9 @@
 
 #Solution:
 #Ask the user to enter their age.
+code = True
 
-while True:
+while code:
     def movie_ticker_price(age):
         #Determine the price of the movie
         if age <= 10:
@@ -26,3 +27,8 @@ while True:
 
     results = movie_ticker_price(age)
     print(results)
+    
+    user_input = input("Enter [Q] to quit or any key to continue: ")
+    if user_input.upper() == "Q":
+        print("Goodbye!")
+        code = False
